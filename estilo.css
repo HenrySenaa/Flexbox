@@ -13,19 +13,19 @@
 }
 
 .box1 {
-    background-color: #63b1bc;
+    background-color: #b8f7ff;
 }
 
 .box2 {
-    background-color: #1f2a44;
+    background-color: #7fa5ff;
 }
 
 .box3 {
-    background-color: #ed145b;
+    background-color: #6093ff;
 }
 
 .box4 {
-    background-color: #efb661;
+    background-color: #2f00ff;
 }
 
 h1 {
@@ -66,14 +66,14 @@ h1 {
     justify-content: space-evenly;
 }
 
-/*Exercicio B */
-
 .containerExercicioB {
-
-}
-
-/*Exercicio Desafio */
-
-.containerExercicioDesafio {
-    
-}
+    display: flex;
+    flex-direction: column-reverse;
+  
+  }
+  
+  .containerExercicioDesafio {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
